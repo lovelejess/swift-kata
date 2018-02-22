@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F8458920E64EC8B2221B85A /* Pods_swift_kataTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBCFAC1DE85423A42EC9F02 /* Pods_swift_kataTests.framework */; };
 		10773BC9203E511400403304 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10773BC8203E511400403304 /* AppDelegate.swift */; };
 		10773BCB203E511400403304 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10773BCA203E511400403304 /* ViewController.swift */; };
 		10773BCE203E511400403304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10773BCC203E511400403304 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		10773BD3203E511400403304 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10773BD1203E511400403304 /* LaunchScreen.storyboard */; };
 		10773BDE203E511500403304 /* swift_kataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10773BDD203E511500403304 /* swift_kataTests.swift */; };
 		10773BE9203E511500403304 /* swift_kataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10773BE8203E511500403304 /* swift_kataUITests.swift */; };
+		163EE172469EF6A56FBEFD81 /* Pods_swift_kata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F8BFC28A4E60461CFE8A34 /* Pods_swift_kata.framework */; };
+		551DCB722955DA3BF295D744 /* Pods_swift_kataUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6C8EE82A11B44C0DD0860B /* Pods_swift_kataUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A0F80E16B25030C47C8FA09 /* Pods-swift-kataTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-kataTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-kataTests/Pods-swift-kataTests.debug.xcconfig"; sourceTree = "<group>"; };
 		10773BC5203E511400403304 /* swift-kata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-kata.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10773BC8203E511400403304 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10773BCA203E511400403304 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		10773BE4203E511500403304 /* swift-kataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-kataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10773BE8203E511500403304 /* swift_kataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_kataUITests.swift; sourceTree = "<group>"; };
 		10773BEA203E511500403304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ACEAF82EEBF3F26D99E1EF5 /* Pods-swift-kataUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-kataUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-kataUITests/Pods-swift-kataUITests.release.xcconfig"; sourceTree = "<group>"; };
+		64F8BFC28A4E60461CFE8A34 /* Pods_swift_kata.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_kata.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7560346CC20D44DB70C7299A /* Pods-swift-kataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-kataTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-kataTests/Pods-swift-kataTests.release.xcconfig"; sourceTree = "<group>"; };
+		85C72B3A23D2AC7B3C5F2B00 /* Pods-swift-kata.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-kata.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-kata/Pods-swift-kata.debug.xcconfig"; sourceTree = "<group>"; };
+		9FBCFAC1DE85423A42EC9F02 /* Pods_swift_kataTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_kataTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6C8EE82A11B44C0DD0860B /* Pods_swift_kataUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_kataUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74911B717EA00F877F5B276 /* Pods-swift-kataUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-kataUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-kataUITests/Pods-swift-kataUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBE19E10DBF05856E303D62A /* Pods-swift-kata.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-kata.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-kata/Pods-swift-kata.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				163EE172469EF6A56FBEFD81 /* Pods_swift_kata.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F8458920E64EC8B2221B85A /* Pods_swift_kataTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				551DCB722955DA3BF295D744 /* Pods_swift_kataUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				10773BDC203E511500403304 /* swift-kataTests */,
 				10773BE7203E511500403304 /* swift-kataUITests */,
 				10773BC6203E511400403304 /* Products */,
+				2392A26A9B93E30E096FDB94 /* Pods */,
+				617F689A406CDCA401F80B8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = "swift-kataUITests";
 			sourceTree = "<group>";
 		};
+		2392A26A9B93E30E096FDB94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85C72B3A23D2AC7B3C5F2B00 /* Pods-swift-kata.debug.xcconfig */,
+				FBE19E10DBF05856E303D62A /* Pods-swift-kata.release.xcconfig */,
+				0A0F80E16B25030C47C8FA09 /* Pods-swift-kataTests.debug.xcconfig */,
+				7560346CC20D44DB70C7299A /* Pods-swift-kataTests.release.xcconfig */,
+				D74911B717EA00F877F5B276 /* Pods-swift-kataUITests.debug.xcconfig */,
+				3ACEAF82EEBF3F26D99E1EF5 /* Pods-swift-kataUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		617F689A406CDCA401F80B8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64F8BFC28A4E60461CFE8A34 /* Pods_swift_kata.framework */,
+				9FBCFAC1DE85423A42EC9F02 /* Pods_swift_kataTests.framework */,
+				AC6C8EE82A11B44C0DD0860B /* Pods_swift_kataUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10773BED203E511500403304 /* Build configuration list for PBXNativeTarget "swift-kata" */;
 			buildPhases = (
+				15F0B4E327BE7CF6B1A4E9EB /* [CP] Check Pods Manifest.lock */,
 				10773BC1203E511400403304 /* Sources */,
 				10773BC2203E511400403304 /* Frameworks */,
 				10773BC3203E511400403304 /* Resources */,
+				73929711FCDD705E4CCD0892 /* [CP] Embed Pods Frameworks */,
+				8978878125AF2AF35EA554A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10773BF0203E511500403304 /* Build configuration list for PBXNativeTarget "swift-kataTests" */;
 			buildPhases = (
+				FA4B54CE238325675C6B95D3 /* [CP] Check Pods Manifest.lock */,
 				10773BD5203E511500403304 /* Sources */,
 				10773BD6203E511500403304 /* Frameworks */,
 				10773BD7203E511500403304 /* Resources */,
+				ADA0F67E2043097E98D58151 /* [CP] Embed Pods Frameworks */,
+				40277DE60BDAC73DFCB9CA3E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10773BF3203E511500403304 /* Build configuration list for PBXNativeTarget "swift-kataUITests" */;
 			buildPhases = (
+				A5BC323B61440272D60C63FB /* [CP] Check Pods Manifest.lock */,
 				10773BE0203E511500403304 /* Sources */,
 				10773BE1203E511500403304 /* Frameworks */,
 				10773BE2203E511500403304 /* Resources */,
+				89B6B5A2C1CDC776E98ECE8D /* [CP] Embed Pods Frameworks */,
+				AAD514F7B281CCC02BA50647 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,160 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15F0B4E327BE7CF6B1A4E9EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-kata-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40277DE60BDAC73DFCB9CA3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-kataTests/Pods-swift-kataTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73929711FCDD705E4CCD0892 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-swift-kata/Pods-swift-kata-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Swifter/Swifter.framework",
+				"${BUILT_PRODUCTS_DIR}/XCTest-Gherkin/XCTest_Gherkin.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swifter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCTest_Gherkin.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-kata/Pods-swift-kata-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8978878125AF2AF35EA554A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-kata/Pods-swift-kata-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89B6B5A2C1CDC776E98ECE8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-kataUITests/Pods-swift-kataUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5BC323B61440272D60C63FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-kataUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAD514F7B281CCC02BA50647 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-kataUITests/Pods-swift-kataUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADA0F67E2043097E98D58151 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-kataTests/Pods-swift-kataTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA4B54CE238325675C6B95D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-kataTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		10773BC1203E511400403304 /* Sources */ = {
@@ -424,6 +627,7 @@
 		};
 		10773BEE203E511500403304 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C72B3A23D2AC7B3C5F2B00 /* Pods-swift-kata.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -432,13 +636,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lovelejess.swift-kata";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		10773BEF203E511500403304 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBE19E10DBF05856E303D62A /* Pods-swift-kata.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,13 +652,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lovelejess.swift-kata";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		10773BF1203E511500403304 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A0F80E16B25030C47C8FA09 /* Pods-swift-kataTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +677,7 @@
 		};
 		10773BF2203E511500403304 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7560346CC20D44DB70C7299A /* Pods-swift-kataTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +695,7 @@
 		};
 		10773BF4203E511500403304 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D74911B717EA00F877F5B276 /* Pods-swift-kataUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +712,7 @@
 		};
 		10773BF5203E511500403304 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ACEAF82EEBF3F26D99E1EF5 /* Pods-swift-kataUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

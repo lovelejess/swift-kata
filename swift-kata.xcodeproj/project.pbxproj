@@ -15,6 +15,9 @@
 		10773BD3203E511400403304 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10773BD1203E511400403304 /* LaunchScreen.storyboard */; };
 		10773BDE203E511500403304 /* swift_kataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10773BDD203E511500403304 /* swift_kataTests.swift */; };
 		10773BE9203E511500403304 /* swift_kataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10773BE8203E511500403304 /* swift_kataUITests.swift */; };
+		10773BF8203E52F400403304 /* FizzBuzzFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10773BF7203E52F400403304 /* FizzBuzzFeatures.swift */; };
+		10773BFB203E54DA00403304 /* FizzBuzzSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10773BFA203E54DA00403304 /* FizzBuzzSteps.swift */; };
+		10773BFE203E584E00403304 /* server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10773BFC203E582900403304 /* server.swift */; };
 		163EE172469EF6A56FBEFD81 /* Pods_swift_kata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F8BFC28A4E60461CFE8A34 /* Pods_swift_kata.framework */; };
 		551DCB722955DA3BF295D744 /* Pods_swift_kataUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6C8EE82A11B44C0DD0860B /* Pods_swift_kataUITests.framework */; };
 /* End PBXBuildFile section */
@@ -51,6 +54,9 @@
 		10773BE4203E511500403304 /* swift-kataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-kataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10773BE8203E511500403304 /* swift_kataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_kataUITests.swift; sourceTree = "<group>"; };
 		10773BEA203E511500403304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10773BF7203E52F400403304 /* FizzBuzzFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzFeatures.swift; sourceTree = "<group>"; };
+		10773BFA203E54DA00403304 /* FizzBuzzSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzSteps.swift; sourceTree = "<group>"; };
+		10773BFC203E582900403304 /* server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = server.swift; sourceTree = "<group>"; };
 		3ACEAF82EEBF3F26D99E1EF5 /* Pods-swift-kataUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-kataUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-kataUITests/Pods-swift-kataUITests.release.xcconfig"; sourceTree = "<group>"; };
 		64F8BFC28A4E60461CFE8A34 /* Pods_swift_kata.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_kata.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7560346CC20D44DB70C7299A /* Pods-swift-kataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-kataTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-kataTests/Pods-swift-kataTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +133,9 @@
 		10773BDC203E511500403304 /* swift-kataTests */ = {
 			isa = PBXGroup;
 			children = (
+				10773BFF203E585400403304 /* TestHelpers */,
+				10773BF9203E54C700403304 /* Steps */,
+				10773BF6203E52D300403304 /* Features */,
 				10773BDD203E511500403304 /* swift_kataTests.swift */,
 				10773BDF203E511500403304 /* Info.plist */,
 			);
@@ -140,6 +149,30 @@
 				10773BEA203E511500403304 /* Info.plist */,
 			);
 			path = "swift-kataUITests";
+			sourceTree = "<group>";
+		};
+		10773BF6203E52D300403304 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				10773BF7203E52F400403304 /* FizzBuzzFeatures.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		10773BF9203E54C700403304 /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				10773BFA203E54DA00403304 /* FizzBuzzSteps.swift */,
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
+		10773BFF203E585400403304 /* TestHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				10773BFC203E582900403304 /* server.swift */,
+			);
+			path = TestHelpers;
 			sourceTree = "<group>";
 		};
 		2392A26A9B93E30E096FDB94 /* Pods */ = {
@@ -472,6 +505,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				10773BDE203E511500403304 /* swift_kataTests.swift in Sources */,
+				10773BF8203E52F400403304 /* FizzBuzzFeatures.swift in Sources */,
+				10773BFE203E584E00403304 /* server.swift in Sources */,
+				10773BFB203E54DA00403304 /* FizzBuzzSteps.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -636,7 +672,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lovelejess.swift-kata";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -652,7 +688,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lovelejess.swift-kata";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
